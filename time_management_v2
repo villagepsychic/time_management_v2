@@ -1,0 +1,30 @@
+print('Answer Yes or No ')
+A1 = input('Is this important? ')
+A2 = input('Is this urgent? ')
+
+# this method attached to a str will force the answer to be lowercase
+# this is helpful to slim down your if statents
+A2 = A2.lower()
+A1 = A1.lower()
+
+# anywhere you see repetition add variables
+
+now_ans = "Do it now"
+later_ans = "Schedule for Later"
+no_ans = "Don't do it"
+del_ans = "Delegate task"
+
+if A1 == 'yes' and A2 == 'yes' :
+	print('Do it now ')
+if A1 == 'yes' and A2 == 'no' :
+	print('Schedule for later  ')
+if A1 == 'yes' and A2 == 'No' :
+	print('Schedule for later  ')
+if A1 == 'no' and A2 == 'yes' :
+	print('Delegate task ')
+if A1 == 'no' and A2 == 'no' :
+	print("Don't do it ")
+
+# the program spits out "wrong reply" each time i run it after the correct response is generated
+else:
+	print("wrong reply")
