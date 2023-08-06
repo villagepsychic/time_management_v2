@@ -23,7 +23,7 @@ if A1 == 'yes' and A2 == 'No' :
 if A1 == 'no' and A2 == 'yes' :
 	print('Delegate task ')
 if A1 == 'no' and A2 == 'no' :
-	print("Don't do it ")
+	print('Don't do it ')
 
 # the program spits out "wrong reply" each time i run it after the correct response is generated
 else:
